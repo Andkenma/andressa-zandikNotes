@@ -1,0 +1,123 @@
+/* 
+*****LIMPAR FORMATAÇOES*****
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+*****FORMATAÇOES GENERICAS*****
+*/
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #202020;
+}
+h1{
+    color: #1b5b5e;
+    font-size: 40px;
+}
+h2{
+    color: #52aaad;
+}
+h3{
+    color: #225e63;
+    background: #000000;
+    padding: 5px;
+}
+/* 
+*****HEADER*****
+*/
+#header{
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+
+}
+#Logo, #menu{
+     padding: 2px;
+}
+#header a:link,#header a:visited{
+    color: rgb(77, 73, 73);
+    padding: 8px 12px;
+}
+#header a:hover{
+    color: black;
+    background: #225e63;
+    text-decoration: none;
+}
+.white{
+    color: rgba(255, 255, 255, 0.726);
+}
+/* 
+*****CONTEUDO*****
+*/
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#posts{
+    width: 660px;
+    float: left;
+}
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: black;
+    text-align: justify;
+    color: #225e63
+    ;
+}
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid color black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.img-post{
+    width: 620px; /* tava 620 px antes d mudar*/
+}
+    
+/* 
+*****RIGHT SIDE*****
+*/
+#right-side{
+    width: 240px;
+    float: right;
+
+}
+.content-right{
+    background: white;
+    padding: 10px;
+    margin: 20px;
+
+}
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+/* 
+*****FORMATAÇAO LINKS*****
+*/
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #1a6379;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* 
+*****FOOTER*****
+*/
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: #1a6379;
+}
